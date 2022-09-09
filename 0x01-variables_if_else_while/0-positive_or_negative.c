@@ -2,8 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - checks if possible, zero or negative
- *
+ * main-checks if possible, zero or negative:wq
  * Return: zero
  */
 int main(void)
