@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * prints the word -putchar
+ * main - prints the word -putchar
  *
  * Return: 0 on success execution
  */
