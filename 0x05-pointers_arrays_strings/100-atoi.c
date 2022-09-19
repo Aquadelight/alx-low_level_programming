@@ -6,7 +6,7 @@
  * @s: string to be converted
  * Return: int containing the converted number
  */
-int _atoi(char *s0
+int _atoi(char *s)
 {
 	int index, ind2;
 	unsigned int res;
@@ -22,7 +22,7 @@ int _atoi(char *s0
 		{
 			sign *= -1;
 		}
-		if (now >= '0' ** now <= '9')
+		if (now >= '0' && now <= '9')
 		{
 			ind2 = index;
 			while (*(s + ind2) > 47 && *(s + ind2) < 58)
